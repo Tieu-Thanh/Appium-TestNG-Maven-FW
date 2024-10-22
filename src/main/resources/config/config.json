@@ -1,0 +1,48 @@
+{
+    "emulator": {
+        "platformName": "Android",
+        "deviceName": "emulator-5554",
+        "platformVersion": "14",
+        "app": "./src/main/resources/app/android.wdio.native.app.v1.0.8.apk",
+        "appPackage": "com.wdiodemoapp",
+        "appActivity": "com.wdiodemoapp.MainActivity",
+        "automationName": "UiAutomator2",
+        "noReset": false,
+        "fullReset": false,
+        "newCommandTimeout": 300,
+        "autoGrantPermissions": true,
+        "uiautomator2ServerLaunchTimeout": 60000,
+        "adbExecTimeout": 30000,
+        "appiumServerUrl": "http://127.0.0.1:4723"
+    },
+    "real_device": {
+        "platformName": "Android",
+        "deviceName": "MyPhysicalDevice",
+        "platformVersion": "11.0",
+        "app": "./src/main/resources/app/android.wdio.native.app.v1.0.8.apk",
+        "appPackage": "com.wdiodemoapp",
+        "appActivity": "com.wdiodemoapp.MainActivity",
+        "automationName": "UiAutomator2",
+        "noReset": true,
+        "fullReset": false
+    },
+    "browserstack": {
+        "framework": "testng",
+        "platformName": "android",
+        "deviceName": "Google Pixel 4",
+        "platformVersion": "11.0",
+        "noReset": false,
+        "fullReset": true,
+        "interactiveDebugging": true,
+        "app": "bs://<app_id>",
+        "browserstack.debug": true,
+        "browserstack.networkLogs": true,
+        "browserstack.appium_version": "1.22.0",
+        "parallelsPerPlatform": "1",
+        "browserstackLocal": false,
+        "buildName": "browserstack-build-1",
+        "accessKey": "<accessKey>",
+        "userName": "<userName>",
+        "appiumServerUrl": "https://<userName>:<accessKey>@hub.browserstack.com/wd/hub"
+    }
+}

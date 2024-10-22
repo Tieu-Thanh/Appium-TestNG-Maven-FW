@@ -1,0 +1,64 @@
+# Ignore target directory (Maven output)
+target/
+
+# Ignore allure
+/.allure
+
+# Ignore compiled class files
+*.class
+
+# Ignore Maven POM files backup
+**/pom.xml.*
+
+# Ignore IDE specific settings
+/.vscode/
+/.idea/
+/.project
+/.classpath
+/.settings
+
+# Ignore Eclipse specific project files
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Ignore IntelliJ specific project files
+*.iml
+.idea/
+out/
+
+# Ignore test reports and logs
+test-output/
+allure-results/
+allure-report/
+
+# Ignore operating system generated files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+/logs
+
+# Ignore environmental files
+.env
+*.env
+
+# Ignore specific configurations
+get_config.txt
+pom_explanation.txt
+run_script.txt
+
+# Ignore Maven local repository
+.mvn/
+
+# Ignore temporary files created by editors
+*~
+*.swp
+*.swo
